@@ -11,7 +11,7 @@
 	* Soporta descarga masiva de los ficheros seleccionados (comprimidos en un único 'zip').
 	* Soporta ordenación por nombre, tamaño o fecha de modificación.
 	* Soporta filtrado instantáneo por nombre (sin recarga de la página).
-	* No requiere instalación, tan solo depositar en archivo 'index_my_file_lister_<version>.php' en la carpeta deseada y renombrarlo si es necesario.
+	* No requiere instalación, tan solo depositar en archivo 'my_file_lister.php' en la carpeta deseada y renombrarlo si se desea (P. ej. -> 'index.php').
 
 ## Ajustes por defecto
 	* Descargas masivas habilitadas para ficheros de tamaño < 500Mb.
@@ -19,7 +19,7 @@
 	Además de las extensiones indicadas, también se admiten ficheros sin extensión que no estén ocultos.
 	
 ## Personalización de ajustes 
-La personalización de los puntos indicados anteriormente puede efectuarse a nivel del propio fichero php, en la sección "2. CONFIGURACIÓN Y PARÁMETROS", modificando las variables que se indican:
-	* Tamaño máximo de fichero para descargas masivas: $maxZipSize
-	* Extensiones de ficheros permitidas: $allowedExts
+	* La personalización de los puntos indicados anteriormente puede efectuarse a nivel del propio fichero php, en la sección "2. CONFIGURACIÓN Y PARÁMETROS", modificando las variables que se indican:
+		* Tamaño máximo de fichero para descargas masivas: $maxZipSize
+		* Extensiones de ficheros permitidas: $allowedExts
   
