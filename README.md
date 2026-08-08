@@ -15,7 +15,7 @@
 	Además de las extensiones indicadas, también se admiten ficheros sin extensión que no estén ocultos.
 	
 ## Personalización de ajustes 
-La personalización de los puntos indicados anteriormente puede efectuarse en la sección "2. CONFIGURACIÓN Y PARÁMETROS", modificando las variables que se indican:
+La personalización de los puntos indicados anteriormente puede efectuarse a nivel del propio fichero php, en la sección "2. CONFIGURACIÓN Y PARÁMETROS", modificando las variables que se indican:
 	* Tamaño máximo de fichero para descargas masivas: $maxZipSize
 	* Extensiones de ficheros permitidas: $allowedExts
   
