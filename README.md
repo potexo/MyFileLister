@@ -1,7 +1,7 @@
 # MyFileLister
 	* MyFileLister es una sencilla herramienta contenida en un único archivo php que permite mostrar el contenido de cualquier carpeta (y sus subcarpetas) en un servidor web. 
 	
-## Requisitos:
+## Requisitos
 	* Requiere php 7.3 ó superior.
 	* Requiere tener instalada la extensión php-zip (Ejemplo: sudo apt install php7.3-zip)
 
